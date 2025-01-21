@@ -1,0 +1,51 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Navigation menu styles */
+nav .menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: e3bedd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav .menu li {
+    margin: 0 15px;
+}
+
+nav .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+nav .menu li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* Content section styles */
+#content {
+    text-align: center;
+    font-size: 1.2rem;
+}
